@@ -8,25 +8,25 @@ function Bottom() {
   return (
       
     <ChakraProvider>
-        <Box mt={{base:"50px",md:'46PX'}} mr={{base:"auto"}} ml={{base:"100px",md:'160px'}}  mb={{base:"50px",md:"0px"}}>
-           <Stack direction={{base:"column",md:"row"}}>
-            <HStack mr='20px' pt={{base:"20px",md:"0px"}} >
-                <Box pr={{base:'30px',md:"10px"}}>
+        <Box mt={{sm:"50px",md:'46PX'}} mr={{sm:"auto"}} ml={{sm:"100px",md:'160px'}}  mb={{sm:"50px",md:"0px"}}>
+           <Stack direction={{sm:"column",md:"row"}}>
+            <HStack mr='20px' pt={{sm:"20px",md:"0px"}} >
+                <Box pr={{sm:'30px',md:"10px"}}>
                 <Icon as={icon2}  />
                 </Box>
-                <Text w={{base:'250px',md:"180px"}} >30 days money back Guarantee</Text>
+                <Text w={{sm:'250px',md:"180px"}} >30 days money back Guarantee</Text>
             </HStack>
-            <HStack mr='20px'  pt={{base:"20px",md:"0px"}}>
-                <Box  pr={{base:'30px',md:"10px"}}>
+            <HStack mr='20px'  pt={{sm:"20px",md:"0px"}}>
+                <Box  pr={{sm:'30px',md:"10px"}}>
                 <Icon as={icon3}/>
                 </Box>
-                <Text w={{base:'250px',md:"180px"}}>No setup fees 100% hassle-free</Text>
+                <Text w={{sm:'250px',md:"180px"}}>No setup fees 100% hassle-free</Text>
             </HStack>
-            <HStack mr='20px' pt={{base:"20px",md:"0px"}} >
-                <Box  pr={{base:'30px',md:"10px"}}>
+            <HStack mr='20px' pt={{sm:"20px",md:"0px"}} >
+                <Box  pr={{sm:'30px',md:"10px"}}>
                 <Icon as={icon4}/>
                 </Box>
-                <Text w={{base:'250px',md:"180px"}}>No monthly subscription Pay once and for all</Text>
+                <Text w={{sm:'250px',md:"180px"}}>No monthly subscription Pay once and for all</Text>
             </HStack>
            </Stack> 
         </Box>
