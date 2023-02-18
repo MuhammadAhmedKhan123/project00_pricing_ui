@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import icon1 from '../../../project00_pricing_ui/src/app/icons/icon1';
+import icon1 from './icons/icon1';
 import {ChakraProvider ,Box,Heading,Text,Flex,Button, HStack,Icon,SimpleGrid} from "@chakra-ui/react"
 function pricing() {
   return( 
