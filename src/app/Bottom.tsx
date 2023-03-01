@@ -8,7 +8,7 @@ function Bottom() {
   return (
       
     <ChakraProvider>
-        <Box mt={{base:"50px",sm:'46PX'}} mr={{base:"auto"}} ml={{base:"60px",sm:'160px'}}  mb={{base:"50px",sm:"0px"}}>
+        <Box mt={{base:"50px",sm:'46PX'}} mr={{base:""}} ml={{base:"60px",sm:'160px'}}  mb={{base:"50px",sm:"0px"}}>
            <Stack direction={{base:"column",sm:"row"}}>
             <HStack mr='20px' pt={{base:"20px",sm:"0px"}} >
                 <Box pr={{base:'30px',sm:"10px"}}>
